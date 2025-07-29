@@ -9,7 +9,7 @@ class NotificationScreen extends StatefulWidget {
 
 class _NotificationScreenState extends State<NotificationScreen> {
   // Sample notifications list
-  List<Map<String, String>> _notifications = [
+  final List<Map<String, String>> _notifications = [
     {
       'title': 'Payment Successful',
       'body': 'You have paid ₦2,000 to Electricity Bill',
